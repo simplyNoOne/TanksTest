@@ -1,0 +1,31 @@
+{
+	"Name" : "PlayerBase",
+	"Components" : 
+	[
+		{
+			"Type" : "RootComponent",
+			"PositionX" : 0,
+			"PositionY" : 0
+		},
+		{
+			"Type" : "PlayerBaseComponent"
+		},
+		{
+			"Type" : "TextureComponent",
+			"Texture" : "Bullet.png",
+			"Width" : 40,
+			"Height" : 40,
+			"RelativeX" : 0,
+			"RelativeY" : 0
+		},
+		{
+			"Type" : "CollisionComponent",
+			"Width" : 35,
+			"Height" : 35,
+			"RelativeX" : 0,
+			"RelativeY" : 0,
+			"Response" : 2,
+			"Mask" : 5
+		}
+	]
+}

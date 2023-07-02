@@ -1,0 +1,37 @@
+{
+	"Name" : "Player",
+	"Components" : 
+	[
+		{
+			"Type" : "RootComponent",
+			"PositionX" : 300,
+			"PositionY" : 400
+		},
+		{
+			"Type" : "TextureComponent",
+			"Texture" : "RedTankFront.png",
+			"Width" : 45,
+			"Height" : 40,
+			"PositionX" : 300,
+			"PositionY" : 480
+		},
+		{
+			"Type" : "PlayerInputComponent"
+		},
+		{
+			"Type" : "CollisionComponent",
+			"Width" : 30,
+			"Height" : 30,
+			"RelativeX" : 7,
+			"RelativeY" : 3,
+			"Response" : 2,
+			"Mask" : 0
+		},
+		{
+			"Type" : "PlayerActionsComponent"
+		},
+		{
+			"Type" : "PlayerMovementComponent"
+		}
+	]
+}

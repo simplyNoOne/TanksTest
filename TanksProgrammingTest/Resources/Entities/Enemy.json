@@ -1,0 +1,34 @@
+{
+	"Name" : "Enemy",
+	"Components" : 
+	[
+		{
+			"Type" : "RootComponent",
+			"PositionX" : 95,
+			"PositionY" : 180
+		},
+		{
+			"Type" : "EnemyActionsComponent"
+		},
+		{
+			"Type" : "EnemyMovementComponent"
+		},
+		{
+			"Type" : "TextureComponent",
+			"Texture" : "BlueTankDown.png",
+			"Width" : 45,
+			"Height" : 40,
+			"PositionX" : 100,
+			"PositionY" : 200
+		},
+		{
+			"Type" : "CollisionComponent",
+			"Width" : 30,
+			"Height" : 30,
+			"RelativeX" : 8,
+			"RelativeY" : 10,
+			"Response" : 2,
+			"Mask" : 2
+		}
+	]
+}

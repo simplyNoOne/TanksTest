@@ -1,0 +1,17 @@
+{
+	"Name" : "MenuOption",
+	"Components" : 
+	[
+		{
+			"Type" : "RootComponent"
+		},
+		{
+			"Type" : "TextureComponent",
+			"Texture" : "Menu.png",
+			"Width" : 100,
+			"Height" : 40,
+			"RelativeX" : 0,
+			"RelativeY" : 0
+		}
+	]
+}

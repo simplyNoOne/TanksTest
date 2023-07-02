@@ -1,0 +1,33 @@
+{
+	"Name" : "StoneWall",
+	"Components" : 
+	[
+		{
+			"Type" : "RootComponent",
+			"PositionX" : 0,
+			"PositionY" : 0
+		},
+		
+		{
+			"Type" : "WallComponent",
+			"WallType" : 1
+		},
+		{
+			"Type" : "TextureComponent",
+			"Texture" : "StoneWall.png",
+			"Width" : 30,
+			"Height" : 35,
+			"RelativeX" : 0,
+			"RelativeY" : 0
+		},
+		{
+			"Type" : "CollisionComponent",
+			"Width" : 30,
+			"Height" : 35,
+			"RelativeX" : 0,
+			"RelativeY" : 0,
+			"Response" : 2,
+			"Mask" : 3
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"Name" : "StartMenuManager",
+	"Components" : 
+	[
+		{
+			"Type" : "PlayerInputComponent"
+		},
+		{
+			"Type" : "MenuComponent"
+		},
+		{
+			"Type" : "TextureComponent",
+			"Texture" : "BrickWall.png",
+			"Width" : 10,
+			"Height" : 20,
+			"RelativeX" : 0,
+			"RelativeY" : 0
+		}
+	]
+}

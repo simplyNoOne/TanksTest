@@ -1,0 +1,17 @@
+{
+	"Name" : "1PlayerOption",
+	"Components" : 
+	[
+		{
+			"Type" : "RootComponent"
+		},
+		{
+			"Type" : "TextureComponent",
+			"Texture" : "1Player.png",
+			"Width" : 90,
+			"Height" : 35,
+			"RelativeX" : 0,
+			"RelativeY" : 0
+		}
+	]
+}

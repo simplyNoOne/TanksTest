@@ -1,0 +1,46 @@
+{
+	"Name" : "MainScene",
+	"Entities" : 
+	[
+		{
+			"Type" : "StartMenuManager"
+		}
+	],
+	"SceneLayout" : 
+	{
+		"Legend" :
+		{
+			"*" : 
+			{
+				"Type" : "MenuOption",
+				"Width" : 100,
+				"Height" : 40
+			},
+			"+" :
+			{
+				"Type" : "QuitOption",
+				"Width" : 100,
+				"Height" : 40
+			}
+		},
+		"Content" :
+		[
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"  *   +  ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             "
+		]
+	}
+}

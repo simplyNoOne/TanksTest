@@ -1,0 +1,17 @@
+{
+	"Name" : "QuitOption",
+	"Components" : 
+	[
+		{
+			"Type" : "RootComponent"
+		},
+		{
+			"Type" : "TextureComponent",
+			"Texture" : "Quit.png",
+			"Width" : 100,
+			"Height" : 40,
+			"RelativeX" : 0,
+			"RelativeY" : 0
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"Name" : "Spawner",
+	"Components" : 
+	[
+		{
+			"Type" : "RootComponent",
+			"PositionX" : 0,
+			"PositionY" : 0
+		},
+		{
+			"Type" : "EnemySpawnerComponent"
+		}
+		
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"Name" : "StartScene",
+	"Entities" : 
+	[
+		
+		{
+			"Type" : "StartMenuManager"
+		}
+	],
+	"SceneLayout" : 
+	{
+		"Legend" :
+		{
+			"*" : 
+			{
+				"Type" : "1PlayerOption",
+				"Width" : 100,
+				"Height" : 35
+			},
+			"+" : 
+			{
+				"Type" : "2PlayerOption",
+				"Width" : 100,
+				"Height" : 35
+			}
+			
+		},
+		"Content" :
+		[
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"  *   +  ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             ",
+			"                             "
+		]
+	}
+}
